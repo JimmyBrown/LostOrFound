@@ -17,6 +17,7 @@
 		BFBFD35C248896C600F8774F /* AddFoundItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD35B248896C600F8774F /* AddFoundItemTableViewController.swift */; };
 		BFC8AD96248ED09C00E9D921 /* Item+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8AD95248ED09C00E9D921 /* Item+Convenience.swift */; };
 		BFC8AD98248ED1A700E9D921 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8AD97248ED1A700E9D921 /* CoreDataStack.swift */; };
+		BFC8AD9A248EF11D00E9D921 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8AD99248EF11D00E9D921 /* ItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BFBFD35B248896C600F8774F /* AddFoundItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoundItemTableViewController.swift; sourceTree = "<group>"; };
 		BFC8AD95248ED09C00E9D921 /* Item+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Convenience.swift"; sourceTree = "<group>"; };
 		BFC8AD97248ED1A700E9D921 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		BFC8AD99248EF11D00E9D921 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC8AD97248ED1A700E9D921 /* CoreDataStack.swift */,
+				BFC8AD99248EF11D00E9D921 /* ItemController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				BFC8AD98248ED1A700E9D921 /* CoreDataStack.swift in Sources */,
 				BFC8AD96248ED09C00E9D921 /* Item+Convenience.swift in Sources */,
+				BFC8AD9A248EF11D00E9D921 /* ItemController.swift in Sources */,
 				BFBFD35C248896C600F8774F /* AddFoundItemTableViewController.swift in Sources */,
 				BFBFD35A2488965B00F8774F /* AddLostItemTableViewController.swift in Sources */,
 				BFBFD33D24885ED800F8774F /* AppDelegate.swift in Sources */,
