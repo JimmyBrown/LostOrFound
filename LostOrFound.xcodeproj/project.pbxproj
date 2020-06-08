@@ -15,6 +15,8 @@
 		BFBFD34C24885EDA00F8774F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBFD34A24885EDA00F8774F /* LaunchScreen.storyboard */; };
 		BFBFD35A2488965B00F8774F /* AddLostItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD3592488965B00F8774F /* AddLostItemTableViewController.swift */; };
 		BFBFD35C248896C600F8774F /* AddFoundItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD35B248896C600F8774F /* AddFoundItemTableViewController.swift */; };
+		BFC8AD96248ED09C00E9D921 /* Item+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8AD95248ED09C00E9D921 /* Item+Convenience.swift */; };
+		BFC8AD98248ED1A700E9D921 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8AD97248ED1A700E9D921 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		BFBFD34D24885EDA00F8774F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFBFD3592488965B00F8774F /* AddLostItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLostItemTableViewController.swift; sourceTree = "<group>"; };
 		BFBFD35B248896C600F8774F /* AddFoundItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoundItemTableViewController.swift; sourceTree = "<group>"; };
+		BFC8AD95248ED09C00E9D921 /* Item+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Convenience.swift"; sourceTree = "<group>"; };
+		BFC8AD97248ED1A700E9D921 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		BFBFD35624885FC700F8774F /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BFC8AD97248ED1A700E9D921 /* CoreDataStack.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 		BFBFD35824885FD900F8774F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BFC8AD95248ED09C00E9D921 /* Item+Convenience.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC8AD98248ED1A700E9D921 /* CoreDataStack.swift in Sources */,
+				BFC8AD96248ED09C00E9D921 /* Item+Convenience.swift in Sources */,
 				BFBFD35C248896C600F8774F /* AddFoundItemTableViewController.swift in Sources */,
 				BFBFD35A2488965B00F8774F /* AddLostItemTableViewController.swift in Sources */,
 				BFBFD33D24885ED800F8774F /* AppDelegate.swift in Sources */,
